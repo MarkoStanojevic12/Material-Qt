@@ -55,6 +55,7 @@ qt_add_qml_module(ControlsLib
     QML_FILES ${CONTROLS_QML_FILES}
     SOURCES
         src/AlertController.h src/AlertController.cpp
+        QML_FILES SpinBox.qml
 )
 
 set_target_properties(ControlsLib PROPERTIES AUTOMOC ON)
