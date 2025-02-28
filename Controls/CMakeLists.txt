@@ -36,6 +36,7 @@ list(APPEND CONTROLS_QML_FILES
     ListItemContact.qml
     AbstractListItem.qml
     MultiStateButton.qml
+    ToggleButtonGroup.qml
 )
 
 qt_add_qml_module(ControlsLib
